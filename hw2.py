@@ -1,14 +1,7 @@
-def hello():
-    print("hello")
-    hello()
+def check_even_odd(num):
+    if num % 2 == 0:
+        return "ლუწია"
+    else:
+        return "კენტია"
 
-
-
-    def bye():
-        print("goodbye")
-        bye()
-
-
-def line():
-    print("------------")
-    line()
+print(check_even_odd(7))

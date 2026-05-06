@@ -1,19 +1,32 @@
-/* selector არის p → ნიშნავს რომ ვსტილავთ პარაგრაფს */
+!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* tag selector */
+        p {
+            color: blue;
+        }
 
-/* declaration არის: property + value ერთად
-   მაგალითი: color: red; */
+        /* class selector */
+        .myClass {
+            color: green;
+        }
 
-/* property არის სტილის სახელი
-   მაგალითი: color, font-size */
+        /* id selector */
+        #myId {
+            color: red;
+        }
+    </style>
+</head>
+<body>
 
-/* value არის მნიშვნელობა
-   მაგალითი: red, 16px */
+    <p class="myClass" id="myId">
+        ეს არის პარაგრაფი
+    </p>
 
-/* Internal CSS ნიშნავს რომ CSS იწერება HTML ფაილში style თეგში */
- 
-/* External CSS ნიშნავს რომ CSS არის ცალკე ფაილში (მაგ: style.css)
-   და HTML-ს უკავშირდება link თეგით */
+</body>
+</html>
+საბოლოოდ ტექსტი იქნება წითელი, რადგან:
 
-
-
+ ID selector-ს აქვს ყველაზე მაღალი პრიორიტეტი
 

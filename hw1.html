@@ -1,45 +1,61 @@
-<!DOCTYPE html>
-<html lang="ka">
-<head>
-    <meta charset="UTF-8">
-    <title>ტექნოლოგიები და მომავალი</title>
-    <link rel="stylesheet" href="style.css">
+<style>
+    /* 1) Arial ფონტი */
+    .text {
+        font-family: Arial, sans-serif;
+        font-size: 24px;
+    }
+
+    /* 2) ღილაკი hover ეფექტით */
+    .btn {
+        background-color: blue;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .btn:hover {
+        background-color: red;
+    }
+
+    /* 3) კვადრატი ზომის შეცვლით */
+    .box {
+        width: 100px;
+        height: 100px;
+        background-color: green;
+        transition: 0.5s;
+        margin-top: 20px;
+    }
+
+    .box:hover {
+        width: 300px;
+        height: 300px;
+    }
+
+    /* 4) ლინკი */
+    a:link {
+        color: green;
+    }
+</style>
 </head>
+
 <body>
 
-<header id="main-header">
-    <h1>ტექნოლოგიები და მომავალი</h1>
-    <nav>
-        <ul>
-            <li><a href="#">მთავარი</a></li>
-            <li><a href="#">სიახლეები</a></li>
-            <li><a href="#">კონტაქტი</a></li>
-        </ul>
-    </nav>
-</header>
+    <!-- 1 -->
+    <p class="text">ეს არის Arial ფონტი</p>
 
-<section class="intro">
-    <h2>მოგესალმებით</h2>
-    <p>ეს საიტი ეძღვნება თანამედროვე ტექნოლოგიებს და მათ გავლენას მომავალზე.</p>
-</section>
+    <!-- 2 -->
+    <button class="btn">დააჭირე</button>
 
-<section class="content">
-    <article>
-        <h3>ხელოვნური ინტელექტი</h3>
-        <p>AI სწრაფად ვითარდება და ცვლის სამყაროს.</p>
-        <button>წაიკითხე მეტი</button>
-    </article>
+    <!-- 3 -->
+    <div class="box"></div>
 
-    <article>
-        <h3>რობოტიკა</h3>
-        <p>რობოტები უკვე ჩვენს ყოველდღიურ ცხოვრებაში არიან.</p>
-        <button>წაიკითხე მეტი</button>
-    </article>
-</section>
-
-<footer>
-    <p>&copy; 2026 ყველა უფლება დაცულია</p>
-</footer>
+    <!-- 4 -->
+    <br><br>
+    <a href="https://facebook.com" target="_blank">
+        Facebook პროფილი
+    </a>
 
 </body>
 </html>

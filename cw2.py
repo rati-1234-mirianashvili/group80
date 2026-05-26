@@ -1,9 +1,13 @@
-name= input("rati")
+def my_split(text,symbol):
+    result = []
 
-if len(name) >0:
-    first_letter = name[0]
-    last_letter= name [-1]
-    print("r")
-    print("i")
-else:
-    print("rati")
+    for letter in text:
+        if letter==symbol:
+            result.append(current)
+            current=""
+        else:
+            current+=letter
+        
+        result.append(current)
+    
+    return result

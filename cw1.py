@@ -1,5 +1,16 @@
-#)შექმენით სია სადაც გექნებათ 10 რიცხვი, გადაუარეთ ამ სიას და გამოიტანეთ მხოლოდ ის რიცხვები რომელიც მეტია ან ტოლია 10ზე
-numbers=[3, 7, 12, 5, 18 ,2 ,25, 10, 8, 15]
-for num in numbers:
-    if num >= 10:
-        print(num)
+def my_join(list,symbol):
+    result=""
+
+    for i in range(len(list)):
+        result += list[i]
+
+        if i != range(len(list)):
+            result += symbol
+         
+        return result
+
+    
+
+       
+    
+    
